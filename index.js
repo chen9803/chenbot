@@ -1,3 +1,18 @@
+/* **************************************************
+
+da chenbot
+- let's update the "server" count every update
+- - ideally something cursed incrementally, 1939, 1945, etc.
+- - if not, just by one every commit should do it
+- - - our "version" number lmao
+- - - actually hold up ok added serverCount
+- - - ngl this is actually a good way of discreetly verifying if the update worked in "production"
+- clean code mmm tasty code
+- I'm sorry Aidan it's like 11:30pm
+
+************************************************** */
+
+
 // Dependencies
 const Discord = require('discord.js');
 const fs = require('fs');
@@ -12,10 +27,13 @@ const prefix = 'c.';
 // Create collection of commands
 client.commands = new Discord.Collection();
 
+// "Version"
+const serverCount = '1940';
+
 // Announce on launch
 client.once('ready', () => {
     console.log('chen-bot is online!');
-    client.user.setActivity('on 1939 servers!', { type: 'PLAYING' }).catch(console.error);
+    client.user.setActivity(`on ${serverCount} servers!`, { type: 'PLAYING' }).catch(console.error);
 });
 
 // Check for correct filetype (JavaScript) and require command files when running given command
