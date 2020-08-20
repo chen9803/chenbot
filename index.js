@@ -26,4 +26,4 @@ for(const file of commandFiles) {
 // THE FUN BEGINS
 
 // Actually login maybe?
-client.login($TOKEN);
+client.login(process.env.TOKEN);

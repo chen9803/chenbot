@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/chen9803/chenbot#readme",
   "dependencies": {
-    "discord.js": "^12.3.1"
+    "discord.js": "^12.3.1",
+    "request": "2.88.2"
   }
 }
