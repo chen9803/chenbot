@@ -12,7 +12,7 @@ client.commands = new Discord.Collection();
 
 // Announce on launch
 client.once('ready', () => {
-    console.log('d.srupt is online!');
+    console.log('chen-bot is online!');
     client.user.setActivity('A COMP', { type: 'STREAMING' }).catch(console.error);
 });
 
@@ -24,3 +24,6 @@ for(const file of commandFiles) {
 }
 
 // THE FUN BEGINS
+
+// Actually login maybe?
+client.login($TOKEN);
