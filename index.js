@@ -1,5 +1,6 @@
 // Dependencies
 const Discord = require('discord.js');
+const fs = require('fs');
 require('dotenv').config();
 
 // Launch
