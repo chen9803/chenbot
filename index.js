@@ -25,6 +25,10 @@ for(const file of commandFiles) {
     client.commands.set(command.name, command);
 }
 
+// identify arguments by a space in the command and properly format
+const args = message.content.slice(prefix.length).split(/ +/);
+const command = args.shift().toLowerCase();
+
 // THE FUN BEGINS
 
 // Check to make sure a message starts with the c. prefix, and that it's not sent by a bot
