@@ -1,0 +1,22 @@
+{
+  "name": "chenbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chen9803/chenbot.git"
+  },
+  "author": "chen, domic, and valoward",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chen9803/chenbot/issues"
+  },
+  "homepage": "https://github.com/chen9803/chenbot#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
+}
