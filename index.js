@@ -15,7 +15,7 @@ client.commands = new Discord.Collection();
 // Announce on launch
 client.once('ready', () => {
     console.log('chen-bot is online!');
-    client.user.setActivity('on 1923 servers!', { type: 'PLAYING' }).catch(console.error);
+    client.user.setActivity('A COMP', { type: 'STREAMING' }).catch(console.error);
 });
 
 // Check for correct filetype (JavaScript) and require command files when running given command
