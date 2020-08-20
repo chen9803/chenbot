@@ -27,5 +27,15 @@ for(const file of commandFiles) {
 
 // THE FUN BEGINS
 
-// Actually login maybe?
+// Check to make sure a message starts with the c. prefix, and that it's not sent by a bot
+client.on('message', async message => {
+    if (!message.content.startsWith(prefix) || message.author.bot) return;
+
+    if (command === 'ping') {
+        client.commands.get('ping').execute(message, args);
+    }
+
+});
+
+// Login
 client.login(process.env.TOKEN);
