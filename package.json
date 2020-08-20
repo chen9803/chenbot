@@ -19,6 +19,7 @@
   "homepage": "https://github.com/chen9803/chenbot#readme",
   "dependencies": {
     "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
     "request": "2.88.2"
   }
 }

@@ -1,5 +1,6 @@
 // Dependencies
 const Discord = require('discord.js');
+require('dotenv').config();
 
 // Launch
 const client = new Discord.Client();
