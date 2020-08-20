@@ -1,6 +1,6 @@
 /* **************************************************
 
-da chenbot
+chenbot in disguise
 - let's update the "server" count every update
 - - ideally something cursed incrementally, 1939, 1945, etc.
 - - if not, just by one every commit should do it
@@ -9,6 +9,12 @@ da chenbot
 - - - ngl this is actually a good way of discreetly verifying if the update worked in "production"
 - clean code mmm tasty code
 - I'm sorry Aidan it's like 11:30pm
+
+"changelog"
+- v1.0.0 1923: PING
+- v1.0.1 1939: ping update (idk something must've happened to jump 16 years)
+- v1.0.2 1940: serverCount, comments
+- v1.0.3 1941: changelog, removed local assets folder, gitignore
 
 ************************************************** */
 
