@@ -34,7 +34,7 @@ const prefix = 'c.';
 client.commands = new Discord.Collection();
 
 // "Version"
-const serverCount = '1940';
+const serverCount = '1941';
 
 // Announce on launch
 client.once('ready', () => {
