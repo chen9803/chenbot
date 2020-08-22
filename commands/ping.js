@@ -21,5 +21,6 @@ module.exports = {
             //.setTimestamp()
             .setFooter('This was the ping command! Good job!', 'https://www.pngmart.com/files/2/Pokeball-PNG-Photos.png');
         message.channel.send(pingEmbed);
+        message.channel.send(`*Test:* Pinging back, @${message.user.id}!`);
     }
 };
